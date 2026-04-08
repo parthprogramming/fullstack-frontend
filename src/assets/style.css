@@ -1,0 +1,46 @@
+.Navbar {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    color: brown;
+    width: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.Navbar h1 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.Navbar li {
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+}
+.Navbar li Link {
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
