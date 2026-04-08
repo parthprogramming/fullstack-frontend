@@ -22,7 +22,7 @@ const Register = () => {
          try{
             const response = await fetch('https://fullstack-backend-production-2e4f.up.railway.app/api/user/register',{
                 method:'POST',
-                body : JSON.stringify({username,password}),
+                body : JSON.stringify({username,password,role}),
                 credentials : 'include',
                 headers : {
                     'Content-type' : 'application/json'

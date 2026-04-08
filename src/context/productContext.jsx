@@ -110,8 +110,8 @@ export const ProductProvider = (props) => {
                 return "Please login first !!"
             }
             console.log(id)
-            const res = await fetch('https://fullstack-backend-production-2e4f.up.railway.app/api/product' + id, { method: 'DELETE' });
-            const data = await res.json();
+                    const res = await fetch('https://fullstack-backend-production-2e4f.up.railway.app/api/product/' + id, { method: 'DELETE' });
+                    const data = await res.json();
             showNotification("Product deleted successfully", "success");
             fetchProduct();
         } catch (err) {

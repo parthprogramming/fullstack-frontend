@@ -1,2 +1,2 @@
-export const fetchProductsApi = ()=> fetch('https://fullstack-backend-production-2e4f.up.railway.app/api/product');
+export const fetchProductsApi = ()=> fetch('https://fullstack-backend-production-2e4f.up.railway.app/api/product/');
 export const deleteProductApi = (id) => fetch(`https://fullstack-backend-production-2e4f.up.railway.app/api/product/${id}`,{method:'DELETE'});

@@ -17,7 +17,6 @@ import UnControlledComponent from './guard/UncontrolledComponents'
 import AboutUs from './components/common/Aboutus';
 import ProductDetails from './components/product/ProductDetail';
 import Profile from './components/Profile';
-import Greetings from './Greetings.tsx';
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/ts-file' name={'10'} element={<Greetings/>}/>
           <Route path='/' element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
